@@ -1,0 +1,3666 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2db60edd-64c9-46f7-807c-4e035abb3518")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CherryMX:CherryMX"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CherryMX"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CherryMX_1_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148WT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WT"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_Studio_XIAO_Series:XIAO-RP2040-DIP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XIAO-RP2040-DIP"
+				(at 5.334 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+				(at 14.478 -32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XIAO-RP2040-DIP_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 29.21 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.89) (xy -2.54 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -8.89) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -1.27 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -16.51) (xy -2.54 -16.51)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -16.51) (xy -1.27 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -20.32) (xy -2.54 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -24.13) (xy -2.54 -24.13)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -27.94) (xy -2.54 -27.94)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -30.48) (xy -1.27 -16.51)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -2.54) (xy 29.21 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -5.08) (xy 29.21 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -8.89) (xy 29.21 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -12.7) (xy 29.21 -30.48)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29.21 -30.48) (xy -1.27 -30.48)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -5.08) (xy 29.21 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -8.89) (xy 29.21 -8.89)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -12.7) (xy 29.21 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -16.51) (xy 29.21 -16.51)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -20.32) (xy 29.21 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -24.13) (xy 29.21 -24.13)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -27.94) (xy 29.21 -27.94)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name "GPIO26/ADC0/A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 0)
+					(length 2.54)
+					(name "GPIO27/ADC1/A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -12.7 0)
+					(length 2.54)
+					(name "GPIO28/ADC2/A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -16.51 0)
+					(length 2.54)
+					(name "GPIO29/ADC3/A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -20.32 0)
+					(length 2.54)
+					(name "GPIO6/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -24.13 0)
+					(length 2.54)
+					(name "GPIO7/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -27.94 0)
+					(length 2.54)
+					(name "GPIO0/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -12.7 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -16.51 180)
+					(length 2.54)
+					(name "GPIO3/MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -20.32 180)
+					(length 2.54)
+					(name "GPIO4/MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -24.13 180)
+					(length 2.54)
+					(name "GPIO2/SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -27.94 180)
+					(length 2.54)
+					(name "GPIO1/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 139.7 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17b4af28-835a-4b84-96dc-1e9023877167")
+	)
+	(junction
+		(at 120.65 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dea3db9-dd9d-4369-9f1b-4fe3c110bc28")
+	)
+	(junction
+		(at 124.46 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35aaae37-4f80-499f-92e2-84c001205032")
+	)
+	(junction
+		(at 125.73 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37e9cf34-08cf-4b8b-ae54-c3323242574e")
+	)
+	(junction
+		(at 104.14 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61d85d39-e2cf-4377-85bc-6f31a010973f")
+	)
+	(junction
+		(at 132.08 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "846ec12c-89aa-4fa2-a5ba-e75405ae2831")
+	)
+	(junction
+		(at 124.46 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d88780a-2e85-438a-9663-59b1668a435f")
+	)
+	(junction
+		(at 104.14 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90bb93f3-1e3d-4817-b3bb-323ebdbb02ac")
+	)
+	(junction
+		(at 132.08 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "957c2af3-cd42-44c5-92b4-1ab77d3e6ef2")
+	)
+	(junction
+		(at 138.43 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "982a77f7-cb0a-4e72-b327-1735fdb1ba45")
+	)
+	(junction
+		(at 125.73 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abdcf7b5-6032-4431-9e25-2cacf2649038")
+	)
+	(junction
+		(at 138.43 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4fbe5cd-2676-4347-a01f-853745220951")
+	)
+	(junction
+		(at 139.7 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e016bb30-0129-42c8-a3a5-cdb5b200dea5")
+	)
+	(junction
+		(at 120.65 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed86b5a0-f8e9-4b80-927b-fc39f0f9c42d")
+	)
+	(wire
+		(pts
+			(xy 124.46 133.35) (xy 138.43 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001aea6e-de4f-47b8-a6b0-1e4f9f0a94a3")
+	)
+	(wire
+		(pts
+			(xy 132.08 139.7) (xy 132.08 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022654db-35b0-4533-9b66-acb8f8ec614b")
+	)
+	(wire
+		(pts
+			(xy 125.73 180.34) (xy 139.7 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ff1297-31d9-4cdd-8bfa-85194260a963")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273f0554-871b-40a0-82c1-ab68aa2829db")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 104.14 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343d9513-7e98-4da3-a7b0-646945a6838f")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358555a8-9b50-4163-8128-b03d1445db91")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 104.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377b5fa3-0bd5-44d4-838d-bc0104fca12f")
+	)
+	(wire
+		(pts
+			(xy 113.03 180.34) (xy 125.73 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39678982-8f60-4c49-969f-a1acd64eae83")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be4aca9-58df-4d06-8222-6a7841abda06")
+	)
+	(wire
+		(pts
+			(xy 120.65 92.71) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d8f44e-325f-443f-a3f5-e467f2b09944")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a2dee6-b105-427c-a6e6-7a1befaf0f85")
+	)
+	(wire
+		(pts
+			(xy 138.43 133.35) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76be7ec7-7297-43e9-9536-2e85ad092a03")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 138.43 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8679b002-8fc4-44a2-8e9b-5f110e7b8744")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b387cf6-d05a-42d1-afbe-c540dfdf1211")
+	)
+	(wire
+		(pts
+			(xy 104.14 162.56) (xy 113.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945a6409-cc25-4b65-bec0-38dc619124e7")
+	)
+	(wire
+		(pts
+			(xy 111.76 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a9a765-dfce-46b4-8f07-b0639c661822")
+	)
+	(wire
+		(pts
+			(xy 120.65 162.56) (xy 120.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ca6743-4ea7-423d-a157-de33c36d1587")
+	)
+	(wire
+		(pts
+			(xy 139.7 157.48) (xy 152.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96481d2c-2c16-4cca-950a-c916a2ca5b1e")
+	)
+	(wire
+		(pts
+			(xy 125.73 157.48) (xy 139.7 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db707dd-28ad-4e91-b1c6-63c643efe1b3")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1906ee2-61a9-46fc-b2c0-c182cdeb49fc")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25e4241-3312-47ab-bdb9-b4accd055e50")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 138.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0d8fff-2853-4754-bcf3-182e1856a13e")
+	)
+	(wire
+		(pts
+			(xy 120.65 139.7) (xy 125.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f0b939-deb4-4d4d-bc44-43badbb9dd34")
+	)
+	(wire
+		(pts
+			(xy 139.7 180.34) (xy 152.4 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce901f8c-fe78-4ca5-85b9-04c43f61c35b")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 104.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85e7572-ca8a-4566-bfca-95949d6be3db")
+	)
+	(wire
+		(pts
+			(xy 113.03 157.48) (xy 125.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28fdf06-6176-49d8-a33d-09a8d8ff73d8")
+	)
+	(wire
+		(pts
+			(xy 120.65 139.7) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8eabcfa-f640-4c6c-9bf4-a55e75e24914")
+	)
+	(wire
+		(pts
+			(xy 132.08 162.56) (xy 139.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed36cbba-d96e-4dd3-8690-7ae0d2262b8e")
+	)
+	(wire
+		(pts
+			(xy 132.08 139.7) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06be97c-15be-4a34-987e-011992c6cf25")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fb4c02-f6e7-4f31-9710-5225eb0db910")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73df7fc-67d6-40cf-b421-08a2594de548")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 111.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafcf8e4-84bf-41c6-b1f0-d79015c271aa")
+	)
+	(wire
+		(pts
+			(xy 125.73 162.56) (xy 120.65 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffefcd5e-e7de-46df-9e8b-932854377dd7")
+	)
+	(global_label "Row 4"
+		(shape input)
+		(at 152.4 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09a551ab-f8a1-4f37-89ba-0932d8b931f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.3118 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 3"
+		(shape input)
+		(at 152.4 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16d0f5a2-8dd3-4c1d-ba11-0516b2269f39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.3118 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Collumn 2"
+		(shape input)
+		(at 54.61 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "337ebefd-b4e2-4755-99ea-b63da59f8759")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.707 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Collumn 1"
+		(shape input)
+		(at 104.14 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3569401f-36b1-4895-ac38-90474973d0ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 79.807 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 2"
+		(shape input)
+		(at 54.61 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40bde68f-fc97-4b2d-af13-aca2eca192bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.6982 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Collumn 3"
+		(shape input)
+		(at 54.61 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d8feff2-1f9b-4781-9142-7af768ded460")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.707 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 2"
+		(shape input)
+		(at 152.4 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ffbcfce-56cf-48e6-ac18-7b41cb49a300")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.3118 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 1"
+		(shape input)
+		(at 54.61 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77fc802b-3cec-496e-9b50-c8d7c9760e89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.6982 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 1"
+		(shape input)
+		(at 152.4 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89fce1de-1f88-4e08-93a9-975174bc17d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.3118 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 4"
+		(shape input)
+		(at 54.61 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96e11480-fc74-428f-a68a-267421e73d8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.6982 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Collumn 3"
+		(shape input)
+		(at 132.08 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c26ecd1a-f5f9-4b92-aabe-4bd45d7f1b04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 79.807 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Collumn 2"
+		(shape input)
+		(at 120.65 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4e88824-e9b2-425f-a4b6-2c7c8bea5221")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 79.807 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 3"
+		(shape input)
+		(at 54.61 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c61ee7cd-49fb-4abb-aff8-f26b0d99cbbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.6982 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Collumn 1"
+		(shape input)
+		(at 54.61 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da78c48f-6cce-46a1-9629-a7855950371c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.707 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 113.03 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003ba664-16ac-47d9-b53c-502286e80280")
+		(property "Reference" "D8"
+			(at 115.57 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 115.57 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 108.585 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77490c32-9363-401d-bc10-ffe3ee296886")
+		)
+		(pin "1"
+			(uuid "53983b4a-b8a3-40f6-abec-d4d48937620d")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 113.03 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020825b4-e401-446c-89c7-3dc061ec36e4")
+		(property "Reference" "SW7"
+			(at 111.76 146.0501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 111.76 143.5101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 113.665 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "823752e8-c002-4c4e-9149-63fa03821dcc")
+		)
+		(pin "1"
+			(uuid "361fd71b-cb1d-4c4d-833f-eced16e2f2a9")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_Studio_XIAO_Series:XIAO-RP2040-DIP")
+		(at 58.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "051d6118-b9bc-49c5-b000-29c7bd7499a2")
+		(property "Reference" "U1"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XIAO-RP2040-DIP"
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
+			(at 72.898 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "da88cab8-782e-4727-a8a4-830e83429eb8")
+		)
+		(pin "11"
+			(uuid "36f02afc-0b80-4cee-9584-6e83b38da2e3")
+		)
+		(pin "5"
+			(uuid "35841f78-69ed-4564-a333-34dea8574edd")
+		)
+		(pin "9"
+			(uuid "7491d050-a4c0-428c-a75f-bf50b4a85478")
+		)
+		(pin "10"
+			(uuid "b7a5e310-b4a4-4bf1-ae8d-60679b03cd0d")
+		)
+		(pin "14"
+			(uuid "dc682bbe-e94b-4c4e-be49-1a42a67a90cc")
+		)
+		(pin "6"
+			(uuid "014ef133-dab2-49ca-a242-59746932511a")
+		)
+		(pin "7"
+			(uuid "de37120e-f8a7-438e-b92c-5204babae381")
+		)
+		(pin "8"
+			(uuid "221d1361-fbca-4615-9f65-01272a9039cc")
+		)
+		(pin "3"
+			(uuid "ce6b8ce7-dd7f-469b-b61d-21753c6da7cc")
+		)
+		(pin "2"
+			(uuid "9ef2e24a-d2ea-4dba-a417-828048ac011a")
+		)
+		(pin "4"
+			(uuid "7b5a8ccb-1d98-484a-8398-e1aac8b4aaca")
+		)
+		(pin "1"
+			(uuid "c24089e1-cc44-4aa4-9a21-d6d73a38a801")
+		)
+		(pin "12"
+			(uuid "6dccf75d-7fc4-4d5c-b435-2a37ff7a25c4")
+		)
+		(instances
+			(project ""
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 113.03 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "074f070d-db04-4995-b742-d3257d589fe8")
+		(property "Reference" "SW8"
+			(at 111.76 168.9101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 111.76 166.3701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 113.665 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b83e496f-642a-4165-b650-c17a2855086b")
+		)
+		(pin "1"
+			(uuid "4a9d366a-d577-4125-a5d1-3e2db008e712")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 111.76 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e8e5ccb-7893-474f-94b4-5a5798720aa6")
+		(property "Reference" "D1"
+			(at 114.3 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 114.3 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 107.315 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "250b7b2d-cd8c-465a-bcdf-9a94e2c2d828")
+		)
+		(pin "1"
+			(uuid "4d7ef48d-11c3-4ac5-851b-64573fba6ef4")
+		)
+		(instances
+			(project ""
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 124.46 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15b45545-b01e-464f-9ee2-4a6e45008705")
+		(property "Reference" "D5"
+			(at 127 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 127 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 120.015 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b493942-6932-4d73-a905-bc85e2b76a56")
+		)
+		(pin "1"
+			(uuid "d1765ba9-e000-4554-bda8-c1a02f00a5bc")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 139.7 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e58ec35-6bf5-49fc-93d2-5d2eb281d86f")
+		(property "Reference" "SW11"
+			(at 138.43 146.0501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 138.43 143.5101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 140.335 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d218839-13d1-498d-942e-8ed36b17e95d")
+		)
+		(pin "1"
+			(uuid "6a6a2872-d99c-42b1-bd90-0bb0fa83eb17")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 111.76 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "297a5832-3059-4989-b5f6-0d7c31627a2f")
+		(property "Reference" "SW6"
+			(at 110.49 99.0601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 110.49 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 112.395 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1491c50-105c-4f08-b70b-f40d6d683189")
+		)
+		(pin "1"
+			(uuid "0d4a9657-e4be-40b9-8779-8e92589b0fcb")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 138.43 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38704d8a-0038-4d29-9a78-40f74a3f0247")
+		(property "Reference" "D3"
+			(at 140.97 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 140.97 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 133.985 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "680900fa-d867-4aba-a97a-4c731a83063f")
+		)
+		(pin "1"
+			(uuid "d51150ba-7e63-4112-9401-826de8b30e4f")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 125.73 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45635f29-a943-44fb-8673-b358d55d5220")
+		(property "Reference" "D9"
+			(at 128.27 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 128.27 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 121.285 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cc917ec-e0de-47dd-a866-0f1d2e555bb4")
+		)
+		(pin "1"
+			(uuid "1041731e-126f-4e1f-9b13-9ca396150297")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 139.7 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "576987a5-ce66-45ee-ab69-3195f725cc29")
+		(property "Reference" "D12"
+			(at 142.24 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 142.24 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 135.255 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 139.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 139.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f1f5023-fd82-4e3f-ac66-f9bb002a2054")
+		)
+		(pin "1"
+			(uuid "e1b37445-9a40-4cef-8bdd-0890504e8bbf")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 124.46 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598f6464-d69e-4218-8f92-4c876454a1a4")
+		(property "Reference" "SW5"
+			(at 123.19 99.0601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 123.19 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 125.095 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.095 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aefca645-c2c4-4633-a3ec-2f3fec2361a2")
+		)
+		(pin "1"
+			(uuid "30175ba3-b4f9-4641-b049-39a97ffed5ca")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 138.43 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b18872a-cbdc-4eb6-9546-88cfa7957315")
+		(property "Reference" "SW3"
+			(at 137.16 121.9201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 137.16 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.065 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "283db7c9-29ef-4ec1-bd91-aca73dd269a4")
+		)
+		(pin "1"
+			(uuid "83d7139e-e4b9-4461-8ae9-7e951eb1d227")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 138.43 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "650dcb7b-13ac-4a68-91ef-139098d4f718")
+		(property "Reference" "SW4"
+			(at 137.16 99.0601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 137.16 96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 139.065 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c46a3faf-92d3-440e-a2bb-7da07b39f428")
+		)
+		(pin "1"
+			(uuid "c95f0b28-fef7-43dc-9168-6620bbaacde6")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 111.76 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "669fedf0-4def-4023-b00c-ee0cb963042f")
+		(property "Reference" "D4"
+			(at 114.3 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 114.3 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 107.315 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df84c6f8-5946-431c-9c0a-56de5196d0cd")
+		)
+		(pin "1"
+			(uuid "01330eef-8e53-40b1-851c-d751720a22db")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 125.73 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76dca379-4534-42a1-ab32-8ca2d6d1c3aa")
+		(property "Reference" "D10"
+			(at 128.27 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 128.27 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 121.285 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 125.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 125.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad1976af-d3a6-4f50-b343-17b17948b214")
+		)
+		(pin "1"
+			(uuid "82fa4246-0079-4c5f-9ade-21f9cd25d85e")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 125.73 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b7dd51-ef95-4524-a996-c37a663cdf35")
+		(property "Reference" "SW10"
+			(at 124.46 168.9101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 124.46 166.3701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 126.365 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126.365 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b46b599a-feaf-4ee0-9b82-290bc3aad725")
+		)
+		(pin "1"
+			(uuid "de22cd94-7d0a-4abd-aed6-8e4720ca5772")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 125.73 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b02f711-1b73-4116-9e2b-ac6a718b6c9c")
+		(property "Reference" "SW9"
+			(at 124.46 146.0501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 124.46 143.5101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 126.365 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126.365 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e10ef5e0-8b34-4b35-9f7a-499b7610d003")
+		)
+		(pin "1"
+			(uuid "cb9d1a33-3c38-4216-aa52-d69f336a8ba2")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 139.7 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d7ea049-389f-4292-91df-e14328dbe002")
+		(property "Reference" "SW12"
+			(at 138.43 168.9101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 138.43 166.3701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 140.335 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee8d341a-5fff-48ec-95a1-8380bebbbc94")
+		)
+		(pin "1"
+			(uuid "2cd74b7f-0825-4eff-8a98-fccaf5cc7bb6")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 111.76 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3491650-15cb-4238-b2a1-4fb37ebe0bf0")
+		(property "Reference" "SW1"
+			(at 110.49 121.9201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 110.49 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 112.395 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.395 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77638900-4c44-43dd-b62a-c0406ff4e290")
+		)
+		(pin "1"
+			(uuid "8aba6101-fe0c-44bc-b7c0-9804e01343c1")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CherryMX:CherryMX")
+		(at 124.46 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdaa3b4d-dabf-4026-9e66-33fbd1360c6b")
+		(property "Reference" "SW2"
+			(at 123.19 121.9201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CherryMX"
+			(at 123.19 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 125.095 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.095 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d21b141-3bdf-4618-ac63-8ca93f7da482")
+		)
+		(pin "1"
+			(uuid "94cf81a2-92b6-44a5-aee1-817250ff340a")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 138.43 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da2a7647-e714-4ff5-9043-1d3fc57a4765")
+		(property "Reference" "D6"
+			(at 140.97 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 140.97 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 133.985 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 138.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 138.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 138.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba0646f1-b2ff-4e48-9877-8e306e7c8af4")
+		)
+		(pin "1"
+			(uuid "106add99-5dec-4c93-8df0-e09820e0c80a")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 124.46 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5424ec-55f4-420f-bb24-fb2cde85a36d")
+		(property "Reference" "D2"
+			(at 127 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 127 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 120.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08540d9c-d91a-4572-ba9e-cd1ce34a6a49")
+		)
+		(pin "1"
+			(uuid "a995a774-6f0c-45af-8b42-0a5f61099be2")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 139.7 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7b14838-1c54-4c3b-83ea-aa9f4716430f")
+		(property "Reference" "D11"
+			(at 142.24 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 142.24 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 135.255 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "704beb7e-d407-429c-b965-0ec387e584f0")
+		)
+		(pin "1"
+			(uuid "4a9ee4a7-fe3a-4305-b935-0be095bd03ab")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 113.03 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fde0c9ec-1d2d-4e9a-a9c5-29207a63b1af")
+		(property "Reference" "D7"
+			(at 115.57 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 115.57 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 108.585 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f9a108e-2e74-49c1-866c-f692656f402e")
+		)
+		(pin "1"
+			(uuid "9be3a712-7b1b-4184-bedf-7d6beb4f341d")
+		)
+		(instances
+			(project "fightbox"
+				(path "/2db60edd-64c9-46f7-807c-4e035abb3518"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

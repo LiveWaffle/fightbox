@@ -1,0 +1,4 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D8,D4,D6,D9,D1,D2,D10,D5,D7,D11,D3,D12";"D_DO-35_SOD27_P7.62mm_Horizontal";12;"1N4148WT";;;
+2;"SW12,SW2,SW4,SW5,SW3,SW1,SW9,SW6,SW7,SW11,SW8,SW10";"SW_Cherry_MX_1.00u_PCB";12;"CherryMX";;;
+3;"U1";"MCU_Seeed_ESP32C3";1;"XIAO-RP2040-DIP";;;
