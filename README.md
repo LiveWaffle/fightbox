@@ -4,7 +4,7 @@
 The FightBox is a flexible custom built FightBox for fighting games.
 
 ## Why I Made it
-I've Always struggled with wrist pain growing up due to breaking both of them. When i started playing tekken 7 i realized that playing with a traditional FightStick/Controller would cause tons of pain in my wrists. I wanted to design something that was smaller but still use-able and wouldn't hurt my hands after long hours of use.
+#### I've Always struggled with wrist pain growing up due to breaking both of them. When i started playing tekken 7 i realized that playing with a traditional FightStick/Controller would cause tons of pain in my wrists. I wanted to design something that was smaller but still use-able and wouldn't hurt my hands after long hours of use.
 ---
 
 ## Pictures
@@ -16,18 +16,6 @@ I've Always struggled with wrist pain growing up due to breaking both of them. W
 | Schematic | Case  |
 |-----------------|----------------|
 | ![Schematic](schematic.png) | ![3D Model](FightBoxHour2CASE.png) |
-
----
-
-## 3D Model Screenshot
-
-![3D Model Screenshot](FightBoxHour3.png)
-
----
-
-## PCB Screenshot
-
-![PCB View](PCB.png)
 
 ---
 ## Bill of Materials (BOM)
